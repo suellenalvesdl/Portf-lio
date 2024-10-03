@@ -1,0 +1,312 @@
+/* ESTILIZAÇÃO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: #0D0521;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #C20BF2;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2.titulo span{
+    color: #C20BF2;
+}
+
+/* ESTILIZAÇÃO DO CABEÇALHO */
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color: #C20BF2;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #C20BF2;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-contato button:hover, form .bnt-duv-enviar input:hover{
+    box-shadow: 0px 0px 20px #C20BF2;
+    transform: scale(1.05);
+}
+
+/* ESTILIZAÇÃO TOPO DO SITE */
+
+section.topo-do-site{
+    padding: 200px 4%; 
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: #C20BF2;
+    font-size: 60px;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: white;
+    margin: 40px 0px;
+}
+
+/* ESTILIZAÇÃO MINHAS HABILIDADES */
+
+section.habilidades{
+    padding: 40x 4%;
+}
+
+section.habilidades .flex{
+    gap: 60px;
+    padding: 100px;
+}
+
+.habilidades .habilidades-box{
+    color: white;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: 1.2s;
+}
+
+.habilidades .habilidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #C20BF2;
+}
+
+.habilidades .habilidades-box img{
+    width: 130px;
+    height: auto;
+}
+
+.habilidades .habilidades-box h3{
+    font-size: 30px;
+    margin: 15px 0px;
+}
+
+/* ESTILIZAÇÃO SOBRE */
+
+section.Sobre{
+    padding: 40px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    padding: 100px;
+    gap: 60px;
+}
+
+.sobre .txt-sobre{
+    color: white;
+}
+
+.sobre .txt-sobre p{
+    font-size: 18px;
+}
+
+.sobre .txt-sobre p span{
+    color: #C20BF2;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 60px;
+}
+
+.sobre .txt-sobre h2 span{
+    color: #C20BF2;
+}
+
+/* ESTILIZAÇÃO CAMPO DE DUVIDAS */
+
+section.duvidas{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: #c40bf29a;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 19px;
+}
+
+form input::placeholder{
+    color: #ffffff;
+}
+
+form textarea::placeholder{
+    color: #ffffff;
+}
+
+form textarea{
+    resize: none;
+}
+
+form .bnt-duv-enviar{
+    margin-top: 20px;
+    text-align: center;
+}
+
+form .bnt-duv-enviar input{
+    background-color: #C20BF2;
+    color: #0D0521;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+/* ESTILIZAÇÃO RODAPÉ */
+
+footer{
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+footer .icones{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+
+h3.titulo{
+    padding: 4%;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* ESTILIZAÇÃO PROJETOS VOLUNTÁRIOS */
+
+.video{
+   padding: 4%;
+   text-align: center;
+}
+
+.video h2{
+    padding: 2%;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.video h2 span{
+    padding: 2%;
+    color: #C20BF2;
+}
+
+.txt-voluntario h2{
+    padding: 2%;
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+}
+
+.txt-voluntario h2 span{
+    color: #C20BF2;
+}
+
+.txt-voluntario p{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.Outros-Projetos button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #C20BF2;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.Outros-Projetos button:hover{
+    box-shadow: 0px 0px 20px #C20BF2;
+    transform: scale(1.05);
+}
