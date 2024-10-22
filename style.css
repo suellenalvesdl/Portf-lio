@@ -117,7 +117,7 @@ section.topo-do-site .flex{
     margin: 40px 0px;
 }
 
-/* ESTILIZAÇÃO MINHAS HABILIDADES */
+/* ESTILIZAÇÃO MINHAS SOFT SKILLS E HARD SKILLS */
 
 section.habilidades{
     padding: 40x 4%;
@@ -295,18 +295,30 @@ h3.titulo{
     
 }
 
-.Outros-Projetos button{
-    padding: 10px 40px;
-    font-size: 18px;
-    font-weight: 600;
-    background-color: #C20BF2;
-    border: 0;
-    border-radius: 30px;
-    cursor: pointer;
-    transition: .2s;
+.txt-perfis h2{
+    padding: 2%;
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
 }
 
-.Outros-Projetos button:hover{
-    box-shadow: 0px 0px 20px #C20BF2;
-    transform: scale(1.05);
+.txt-perfis span{
+    color: #C20BF2;
 }
+
+.txt-perfis p{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* ESTILIZAÇÃO DOS CARDS-PERFIS */
+
+
+.perfis{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    flex-wrap: wrap;
+}
+
